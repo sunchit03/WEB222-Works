@@ -1,0 +1,141 @@
+<!--
+    Name: Sunchit Singh
+    Student ID: 169146214
+    Email: sunchit-singh@myseneca.ca
+    Source: https://www.espncricinfo.com/
+-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>HOME OF CRICKET</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "styles1.css" type = "text/css">
+    </head> 
+    <body>
+        <header>
+        <h1>HOME OF CRICKET</h1>
+        <nav>
+            <ul>
+                <li><a id = "logo" href = "index.html"><img src = "espn.png" alt = "Logo" width = "70"></a></li>
+                <li><a href = "#news">Top Stories</a></li>
+                <li><a href = "#team-rank">Team Rankings</a></li>
+                <li><a href = "#change-color">Color Changer</a></li>
+                <li><button id = "css-change" onclick = "changeCSS()">Change CSS</button></li>
+            </ul>
+        </nav>
+        </header>
+        <hr class = "separator">
+        <main>
+            <section>
+                <h2 id = "news">Top Stories</h2>
+                <article>
+                    <img src = "rohirat.webp" alt = "Image of Virat Kohli after victory at MCG vs. Pakistan" width = "250">
+                    <h4>Rohit on Kohli's innings: 'His best for sure, one of India's best too'</h4>
+                    <p>
+                        "We know how good he is when the score is in front of him; he's one of the best chasers in the world"
+                    </p>
+                    <p><time datetime = "2022-10-23">23-Oct-2022</time> &#x2022; <cite>Sidharth Monga</cite> </p>
+                </article>
+                <hr>
+                <article>
+                    <img src = "fafdup.webp" alt = "Image of Faf du Plessis" width = "250">
+                    <h4>Faf du Plessis says breakdown in relationship with coach Mark Boucher pushed him into Test retirement</h4>
+                    <p>
+                        Writes of a lack of open communication from CSA's then director of cricket Graeme Smith as well, in his new autobiography
+                    </p>
+                    <p><time datetime = "2022-10-23">23-Oct-2022</time> &#x2022; <cite>Firdose Moonda</cite> </p>
+                </article>
+                <hr>
+                <article>
+                    <img src = "viratkohli.webp" alt = "Image of Virat Kohli after victory at MCG vs. Pakistan" width = "250">
+                    <h4>Kohli: My best T20 innings because of the 'magnitude of the game and the situation'</h4>
+                    <p>
+                        "I honestly have no words, I have no idea how that happened," Kohli says after scripting a magnificent win for India over Pakistan
+                    </p>
+                    <p><time datetime = "2022-10-23">23-Oct-2022</time> &#x2022; <cite>Nagraj Gollapudi</cite> </p>
+                </article>
+                <hr class="content-separator">
+            </section>
+            <section>
+                <h2 id = "team-rank">Team Rankings</h2>
+                <table>
+                    <tr>
+                        <th class = "position">Position</th>
+                        <th>Team</th>
+                        <th>Rating</th>
+                        <th>Points</th>
+                    </tr>
+                    <tr>
+                        <td class = "position">1</td>
+                        <td>Australia</td>
+                        <td>128</td>
+                        <td>2439</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">2</td>
+                        <td>India</td>
+                        <td>114</td>
+                        <td>3318</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">3</td>
+                        <td>South Africa</td>
+                        <td>104</td>
+                        <td>2606</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">4</td>
+                        <td>England</td>
+                        <td>103</td>
+                        <td>4449</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">5</td>
+                        <td>New Zealand</td>
+                        <td>100</td>
+                        <td>2704</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">6</td>
+                        <td>Pakistan</td>
+                        <td>92</td>
+                        <td>2111</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">7</td>
+                        <td>Sri Lanka</td>
+                        <td>83</td>
+                        <td>1916</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">8</td>
+                        <td>West Indies</td>
+                        <td>80</td>
+                        <td>1988</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">9</td>
+                        <td>Bangladesh</td>
+                        <td>48</td>
+                        <td>1047</td>
+                    </tr>
+                    <tr>
+                        <td class = "position">10</td>
+                        <td>Zimbabwe</td>
+                        <td>25</td>
+                        <td>148</td>
+                    </tr>
+                </table>
+            </section>
+            <hr class="content-separator">
+            <section>
+                <h2 id = "change-color">Color Changer</h2>
+                <p><label for = "bg-color">Enter HEX colour code:</label></p>
+                <textarea id = "bg-color" name = "bg-color" placeholder = "#ffffff"></textarea>
+                <br>
+                <input id = "submit" type = "submit" value = "Submit" onclick = "changeColor()">
+            </section>
+        </main>
+        <script src = "script.js" type = "text/javascript"></script>
+    </body>
+</html>

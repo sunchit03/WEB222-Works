@@ -1,0 +1,147 @@
+/* 
+Name: Sunchit Singh
+Student ID: 169146214
+Email: sunchit-singh@myseneca.ca 
+*/
+
+body {
+    background-color: #392B58;
+}
+
+main {
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #645E9D;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    color: rgb(176, 135, 176);
+    text-align: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100;
+    z-index: 100;
+    padding-bottom: 20px;
+    background-color: #2D0320;
+  }
+
+  li {
+    display: inline;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  a {
+    color: rgb(176, 135, 176);
+    text-decoration: none;
+  }
+
+  a:hover, button:hover {
+    background-color: white;
+    color: pink
+  }
+
+  button {
+    background-color: #2D0320;
+    color: rgb(176, 135, 176);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    padding: 0%;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  article h4, article p, article img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: white;
+  }
+
+  article img {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 1px solid white;
+  }
+
+  article h4 {
+    font-size: larger;
+    margin-bottom: -5px;
+  }
+
+  article p{
+    margin-bottom:25px;
+  }
+
+  time, cite {
+    color: black;
+    font-weight: bolder;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin-bottom: 20px;
+  }
+
+  th {
+    width:fit-content;
+    height: 30px;
+    text-align: left;
+    background-color: #6C969D;
+    color: white;
+    border-bottom: 1.5px solid black;
+    font-size: 18px;
+  }
+
+  tr {
+    border: 0.8px solid grey;
+    height: 30px;
+    background-color: #aad2ca;
+    text-align: left
+  }
+
+  tr:nth-child(odd) {
+    background-color: #6C969D;
+  }
+
+  p {
+    color: white;
+  }
+
+  #bg-color, #submit {
+    margin: 10px;
+  }
+
+  .separator {
+    margin: 30px 15px;
+    visibility: hidden;
+  }
+
+  .content-separator {
+    visibility: visible;
+    border-top: 1.5px solid #2D0320;
+    border-bottom: 1.5px solid #2D0320;
+  }
+
+  hr {
+    visibility: hidden;
+  }

@@ -1,0 +1,140 @@
+/* 
+Name: Sunchit Singh
+Student ID: 169146214
+Email: sunchit-singh@myseneca.ca 
+*/
+
+main {
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    border: 0.2px solid palevioletred
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    
+}
+
+h1 {
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    padding-bottom: 10px;
+  }
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, #submit {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    color: purple;
+    text-align: center;
+    background-color: #de9bff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100;
+    z-index: 100;
+    padding-bottom: 20px;
+    background-color: #de9bff;
+  }
+
+  li {
+    text-align: center;
+    display: inline;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #logo {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+
+  a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: purple;
+    text-decoration: underline;
+  }
+  a:active {
+    color: red;
+  }
+
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  article {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+  }
+  article img {
+    float: left;
+    margin-right: 30px;
+    border: 1px solid black;
+  }
+
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin-bottom: 20px;
+  }
+
+  th {
+    width:fit-content;
+    height: 30px;
+    text-align: left;
+    background-color: palevioletred;
+  }
+
+  tr {
+    border: 0.8px solid grey;
+    height: 30px;
+    background-color: rgb(252, 211, 218);
+  }
+
+  #team-rank, #change-color {
+    padding-top: 20px;
+  }
+
+  .separator {
+    margin: 30px 15px;
+    border-top: 5px solid lightgrey;
+  }
+
+  .content-separator {
+    margin: 30px 15px;
+    border-top: 3px solid black;
+  }
+
+  #submit {
+    margin-bottom: 20px;
+  }
