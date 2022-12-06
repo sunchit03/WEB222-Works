@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+}
+
+#head {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    background-color: purple; 
+    color: white;  
+}
+
+#head #image{
+    margin-left: 25%;
+}
+
+#info {
+    display: flex;
+    gap: 50px;
+}
+
+#about {
+    width: 50%;
+}
+
+#basic-info {
+    width: 50%;
+}
+
+#education .card .row .col-md-4 {
+    max-width: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+#pay-rate {
+    width: 49%;
+}
+
+#submit {
+    margin-right: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #head {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #head #image {
+        margin: 0;
+    }
+    #head #image img{
+        height: 120px;
+        margin-top: 20;   
+    }
+
+    #info {
+        display: block;
+    }
+
+    #info #about {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #info #basic-info {
+        width: 100%;
+    }
+
+    #info #basic-info #question-answers {
+        margin: 0;
+    }
+
+    #education .card .row img {
+        padding: 0;
+    }
+
+    #education .card .row .col-md-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #education .card .row .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #education .card .row .col-md-8{
+        width: 55%;
+    }
+
+  }
