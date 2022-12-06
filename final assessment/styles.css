@@ -89,6 +89,7 @@ body {
     #education .card .row .col-md-4 {
         padding-left: 0;
         padding-right: 0;
+        width: 25%;
     }
 
     #education .card .row .card-body {
@@ -98,6 +99,10 @@ body {
 
     #education .card .row .col-md-8{
         width: 55%;
+    }
+
+    #reason {
+        display: block;
     }
 
   }
