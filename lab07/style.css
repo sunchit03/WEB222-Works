@@ -1,0 +1,22 @@
+/*
+    Name: Sunchit Singh
+    Student ID: 169146214
+    Date: November 24, 2022
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+div {
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 20px;
+    white-space: nowrap;
+    height: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
