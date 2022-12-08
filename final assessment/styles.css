@@ -14,7 +14,7 @@ body {
     width: 100%;
     /* margin-left: 25%;
     margin-right: 25%; */
-    background-color: purple; 
+    background-color: purple;
     color: white;  
 }
 
@@ -40,6 +40,7 @@ body {
     text-align: center;
     padding: 20px;
 }
+
 
 #pay-rate {
     width: 49%;
