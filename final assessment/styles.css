@@ -83,6 +83,12 @@ body {
         margin: 0;
     }
 
+    #info #basic-info #question-answers .row {
+        display: grid;
+        grid-template-columns: 4fr 6fr;
+        
+    }
+
     #info #basic-info #question-answers .row .col.col-lg-3 {
         padding-right: 0;
     }
