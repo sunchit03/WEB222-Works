@@ -15,13 +15,10 @@ var minWage = {
 var payDiv = document.getElementById("pay-div");
 var city = document.getElementById("city");
 
-payDiv.innerHTML = "";
-
 let payLabel = document.createElement("label");
 payLabel.id = "pay-lbl";
 payLabel.for = "pay-rate";
 payLabel.classList.add("form-label");
-
 
 let required = document.createElement("span");
 required.classList.add("text-danger");
@@ -36,12 +33,12 @@ payRate.classList.add("form-control");
 payRate.type = "number";
 payRate.name = "pay-rate";
 payRate.tabIndex = "8";
-//payRate.pattern = "^\\d*[.]?\\d+$";
 payRate.step = "0.01";
-
+payRate.required = true;
 
 
 window.onload = function() {
+    document.getElementById("reset").click();
     city.addEventListener("change", () => {
         if (city && city.value) {
             var flag = 0;
@@ -54,13 +51,8 @@ window.onload = function() {
             }
         }
     });
+    checkRadio();
 }
-
-
-payRate.required = true;
-
-
-
 
  function checkRadio() {
 
