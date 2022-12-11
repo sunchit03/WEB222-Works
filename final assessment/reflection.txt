@@ -1,0 +1,104 @@
+In your reflection, please discuss and demo all of the following:
+● What techniques, technologies, and patterns did you use in your website?
+I have made this portfolio website using the languages HTML and JS, and I have 
+used CSS for the styling. Along with my own CSS, I used a lot of Bootstrap and 
+also included the google stylesheet so I could use the icons in my website.
+
+
+● Which other web sites did you use as inspiration? What aspects did you use in 
+your own design?
+I took some inspiration from LinkedIn, particularly the cover picture and the 
+cards for education. 
+
+● Demonstrate and explain how you made your web site responsive, so it works well 
+on both phone and desktop browsers.
+I started with a desktop-first approach and made the website based on that. 
+Then, with the use of media queries in CSS, I made changes (for screens with 
+max-width of 768px) and in particular, made the elements block level, whose 
+displays were earlier inline or flex.
+
+
+● Explain some of the main features of HTML Forms and Input elements you used 
+to help make sure the user’s input was valid for your forms, and to keep them 
+from submitting mistakes.
+I had two options, either to use JavaScript for the input validation or use HTML 
+for doing so. In one of the lab previously, we were asked to validate using JS, 
+so I thought of doing differently this time. For the fields we were asked to 
+create, I used their respective input types and the required attribute. Other 
+than that, I created a field for phone number which I set to optional. For the 
+phone number and postal code fields, I provided the proper regex inside the 
+pattern attribute for the validation. 
+I have added one very interesting logic to the form. So if the user will choose 
+a city out of these 10 in the datalist, it will iterate through this object, find 
+that city and set the minimum attribute of the pay rate input to the corresponding
+value, which otherwise would be equal to 15.
+
+
+● How did you test that your responsive design and web form were both working, 
+and did this testing find any bugs in your implementation? How did you address 
+these?
+I wrote the entire HTML first before adding any CSS or JS. So, as soon as I built 
+the form, I could check if it was working. I had to make some tweaks - making 
+some fields required, adding the pattern attribute to make sure all the correct 
+data was being passed on to the web form. The form also required DOM manipulation,
+ where we had to add this field for the hourly pay rate based on the value of the 
+reason. When I did so, it was failing to submit because it was a required field, 
+and I had used CSS to hide the field in case when the reason was Question or 
+Comment. So the required field was there but not visible, which would not have 
+allowed the user to submit it. So I had to edit my JS for this particular task - 
+I removed the field entirely from the form when the reason was Question or 
+Comment and dynamically created it in case of Hiring.
+
+For the responsive design, I used the browser's developer tools. I used 
+breakpoints at the pixels where the content started to break and look unformatted, 
+to set up the media queries. A lot of time went into changing the margins and 
+paddngs in order to fix the format for different view modes and for different
+devices.
+
+
+● What advice would you give to other web developers building forms for their 
+pages based on your own experience? What lessons did you learn?
+What I feel is that most developers while trying to showcase their skills might 
+add too much functionality and/or animations. I am of the opinion that, a 
+developer's job is to make things easier for their client and for whoever uses 
+the application/webpage. The page should be easy to the eye of the viewer.
+Same goes for the forms, a developer should help the user as much as possible 
+while filling out the forms. This can be done in many ways - clearly mentioning
+which fields are required or not, what format is accepted such as in case of
+phone numbers, emails or postal codes. And also, by using the autocomplete and 
+tabindex attributes of the input element.
+
+
+● What improvements would you make to your webpage? What would you do differently
+if you built it again?
+I would definitely start with a mobile first approach, and then later use the media
+queries to display the page for wider screens. Other than that, I would try to 
+write all the CSS by myself, without using any frameworks like bootstrap.
+
+
+The website starts with a title section where I have displayed my 
+name, image and these links. The Resume link would download my resume in pdf form, 
+and this contact me link would take the viewer to the form section.
+I have used flexbox to display this section, where the image and the text have been
+placed in child elements, and set to inline display.
+
+The next section introduces myself, along with the Honesty Statement. Again for 
+this part, I have made use of flexbox, where these two sections are the flex
+children.
+
+Then comes the education section, styled using bootstrap as well as my own CSS.
+
+The final part of the website - forms is styled entirely using Bootstrap, because
+I feel Bootstrap has a great form writing style, considering all the styling of
+the labels and the input boxes.
+
+
+The second part of the assessment was implementing a static hosting solution so
+that the website can be viewed online. This part did not take much time. I chose
+Vercel for doing so. I have already created a repository for all my WEB222 labs
+and assignments on Github. So I just linked the final assessment branch to the 
+vercel project.
+
+Overall, this assessment has incorporated all the content of the second half of the
+semester from HTML, CSS to DOM Manipulation and creating and validating forms. So, 
+it has definitely been a great learning curve for me.
